@@ -1,12 +1,13 @@
 {
   "name": "ng2-treeview-demo",
-  "version": "0.1.0",
+  "version": "0.2.4",
   "private": true,
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "local-install": "npm uninstall ng2-treeview && npm install ng2-treeview && npm run tsc"
   },
   "license": "ISC",
   "dependencies": {

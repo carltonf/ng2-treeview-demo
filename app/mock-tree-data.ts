@@ -1,6 +1,6 @@
-import {TreeNode} from 'ng2-treeview'
+import {TreeData} from 'ng2-treeview'
 
-export var TREEDATA: TreeNode = {
+export var TREEDATA: TreeData = {
   name: 'root',
   children: [
     {name: '2-1'},
